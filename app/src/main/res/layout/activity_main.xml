@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/instructions" />
+    <TextView
+        android:id="@+id/tv_colours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/possible_colours" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_black"
+            android:textStyle="bold"
+            android:textColor="@color/guess_black"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/guess_red"
+            android:textStyle="bold"
+            android:textColor="@color/guess_red"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/guess_yellow"
+            android:textStyle="bold"
+            android:textColor="@color/guess_yellow"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_orange"
+            android:textStyle="bold"
+            android:textColor="@color/guess_orange"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_green"
+            android:textStyle="bold"
+            android:textColor="@color/guess_green"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_blue"
+            android:textStyle="bold"
+            android:textColor="@color/guess_blue"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_purple"
+            android:textStyle="bold"
+            android:textColor="@color/guess_purple"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_cyan"
+            android:textStyle="bold"
+            android:textColor="@color/guess_cyan"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_brown"
+            android:textStyle="bold"
+            android:textColor="@color/guess_brown"
+            android:layout_margin="2dp"/>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guess_pink"
+            android:textStyle="bold"
+            android:textColor="@color/guess_pink"
+            android:layout_margin="2dp"/>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tv_score_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_title"
+        android:textAlignment="textStart"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="@string/score"
+            android:textAlignment="textEnd"
+            android:textSize="72sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sep"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sep"
+            android:textAlignment="center"
+            android:textSize="72sp" />
+
+
+        <TextView
+            android:id="@+id/tv_high"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/high"
+            android:textSize="72sp" />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_high_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/high_title"
+        android:textAlignment="textEnd"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/bn_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:text="@string/play_the_game" />
+
+</LinearLayout>

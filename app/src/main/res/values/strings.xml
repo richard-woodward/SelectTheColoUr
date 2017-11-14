@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Select The ColoUr - Final</string>
+    <string name="instructions">In one minute, see how many times you can correctly choose the colour of the text from only two options.\nThere is a points penalty for each incorrect choice.</string>
+    <string name="possible_colours">Possible Colours:</string>
+    <string name="score" translatable="false">0</string>
+    <string name="sep" translatable="false">/</string>
+    <string name="high" translatable="false">0</string>
+    <string name="score_title">last score</string>
+    <string name="high_title">high score</string>
+
+    <string name="guess_red">RED</string>
+    <string name="guess_blue">BLUE</string>
+    <string name="guess_green">GREEN</string>
+    <string name="guess_purple">PURPLE</string>
+    <string name="guess_black">BLACK</string>
+    <string name="guess_orange">ORANGE</string>
+    <string name="guess_pink">PINK</string>
+    <string name="guess_cyan">CYAN</string>
+    <string name="guess_yellow">YELLOW</string>
+    <string name="guess_brown">BROWN</string>
+    <string name="time_left">Time Left: %s seconds</string>
+    <string name="play_the_game">Play the Game</string>
+</resources>

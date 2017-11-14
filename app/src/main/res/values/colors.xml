@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="guess_red">#EE0000</color>
+    <color name="guess_blue">#0000EE</color>
+    <color name="guess_green">#00EE00</color>
+    <color name="guess_purple">#AA00FF</color>
+    <color name="guess_black">#000000</color>
+    <color name="guess_orange">#DD5500</color>
+    <color name="guess_pink">#FF77FF</color>
+    <color name="guess_cyan">#00DDDD</color>
+    <color name="guess_yellow">#EEEE00</color>
+    <color name="guess_brown">#654321</color>
+</resources>
